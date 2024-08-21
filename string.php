@@ -12,5 +12,5 @@ foreach ( $strings as $string ) {
 
     $reversedString = strrev( $string );
 
-    echo "Original String: $string, Vowel Count: $vowelCount, Reversed String: $reversedString\n";
+    echo "Original String: $string, Vowel Count: $vowelCount, Reversed String: $reversedString" . PHP_EOL;
 }
